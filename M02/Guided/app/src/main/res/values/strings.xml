@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Crash</string>
+    <string name="lambda_logo">lambda_logo</string>
+    <string name="crash_testing">crash_testing</string>
+</resources>
