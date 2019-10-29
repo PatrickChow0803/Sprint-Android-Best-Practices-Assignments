@@ -4,15 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_first"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="First Crash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Crash"
+        app:layout_constraintTop_toBottomOf="@id/btn_first" />
+
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third Crash"
+        app:layout_constraintTop_toBottomOf="@id/btn_second" />
+
+    <Button
+        android:id="@+id/btn_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fourth Crash"
+        app:layout_constraintTop_toBottomOf="@id/btn_third" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
