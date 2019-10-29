@@ -37,7 +37,21 @@
         app:layout_constraintTop_toBottomOf="@+id/mainTitle" />
 
     <Button
+        android:id="@+id/btn_force_crash"
+        android:text="@string/force_a_crash"
+        app:layout_constraintTop_toBottomOf="@id/crashImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_other_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Other"
+        app:layout_constraintTop_toBottomOf="@id/btn_force_crash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
