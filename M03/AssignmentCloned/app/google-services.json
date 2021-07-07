@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "336084346659",
+    "firebase_url": "https://reading-list-ffb84.firebaseio.com",
+    "project_id": "reading-list-ffb84",
+    "storage_bucket": "reading-list-ffb84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336084346659:android:8ffd1567b7450dc1d34e96",
+        "android_client_info": {
+          "package_name": "com.lambdaschool.readinglistpatrickchow20191030"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336084346659-bbaf4efmh0h12leu9hi27h6cj2g5vvu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lambdaschool.readinglistpatrickchow20191030",
+            "certificate_hash": "f10bea8cfe6c1a84de00e430d54398f5a4dc009c"
+          }
+        },
+        {
+          "client_id": "336084346659-eifmqgo47ftug7bck8e0ctojbrtej0jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmXiM-NKFSvu52gJtS3uGAejfXqunUdXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336084346659-eifmqgo47ftug7bck8e0ctojbrtej0jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

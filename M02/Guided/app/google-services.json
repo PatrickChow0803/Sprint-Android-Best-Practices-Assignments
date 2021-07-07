@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150466165216",
+    "firebase_url": "https://lambdacrashtest-aefb6.firebaseio.com",
+    "project_id": "lambdacrashtest-aefb6",
+    "storage_bucket": "lambdacrashtest-aefb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150466165216:android:281d7ce3fe4ae326aa5385",
+        "android_client_info": {
+          "package_name": "com.lambda.crashppp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150466165216-njncbnm4csqtokerq9r0k0gmglfd5lpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfNlj8fQHXHCQizYUNXf3q_AbDQLMLvkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150466165216-njncbnm4csqtokerq9r0k0gmglfd5lpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
